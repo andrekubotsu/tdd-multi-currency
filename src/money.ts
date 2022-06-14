@@ -1,6 +1,6 @@
 export class Money {
-  public amount: number | undefined
-  public _currency: string | undefined
+  private readonly amount: number | undefined
+  private readonly _currency: string | undefined
 
   constructor (amount:number, currency:string) {
     this.amount = amount
