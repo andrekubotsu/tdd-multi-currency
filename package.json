@@ -2,8 +2,9 @@
   "name": "tdd-moedas",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "money.ts",
   "scripts": {
+    "dev": "nodemon src/money.ts",
     "test": "jest --watchAll"
   },
   "author": "",
@@ -22,6 +23,7 @@
     "husky": "^8.0.1",
     "jest": "^28.1.1",
     "lint-staged": "^13.0.1",
+    "nodemon": "^2.0.16",
     "ts-jest": "^28.0.4",
     "ts-node": "^10.8.1",
     "typescript": "^4.7.3"
